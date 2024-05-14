@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+}
+section{
+    background-color: #F5F5F5;
+}
+section .f-nav-main a
+{
+  text-decoration: none;
+  color: darkred;
+}
+.f-nav .logo a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar .right span{
+    font-size: 22px;
+}
+.center .nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar
+{
+    background-color: #FFFFFF;
+}
+.navbar input
+{
+    border: 1px solid #F5F5F5;
+    outline: none;
+    color: #8B8B8B;
+    font-size: 15px;
+    padding: 8px;
+    width: 70%;
+    border-radius: 25px;
+    transition: all ease-in-out o.3s;
+}
+.navbar input:hover{
+    background-color: #E5E5E5;
+}
+.bg
+{  
+   height: 100%; 
+    width: 100%;
+}
+.bg video{
+    width: 100%;
+    height: 100%;
+}
+.Featured img{
+    height: 500px;
+    width: 100%;
+    transition: all 0.6s;
+   overflow: hidden;
+}
+.shoes{
+    overflow: hidden;
+}
+.shoes img{
+    rotate: calc(-30deg);
+}
+.shoes:hover img{
+    overflow: hidden;
+    transition: all ease 0.6s;
+    rotate: calc(0deg);
+}
+.party
+{
+    height: 500px;
+    background-color: transparent;
+}
+.party video{
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+.position
+{
+    background-color: #ADBCCC;
+    height: 550px;
+    position: relative;
+}
+.position .info button{
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-family: poppins;
+}
+.deo{
+    position: absolute;
+    height: 350px;
+   
+   width: 50%;
+   left: 3%;
+   bottom: -17%;
+   z-index: 999;
+}
+.deo video{
+    height: 100%;
+    width: 100%;
+}
+.pic{
+    background-image: url('images/bg-slider.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: absolute ;
+    width: 40%;
+    left: 46%;
+   z-index: 0;
+   top: -14%;
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+}
+.sc img{
+    width: 100%;
+    transition: all ease-in 0.6s;
+}
+.sc{
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.sc:hover img{
+    transform: scale(1.1);
+}
+.grid img{
+    height:250px;
+    width: 85%;
+    transition: all ease-in 0.6s;
+}
+.extra{
+    overflow: hidden;
+    margin: 0%;
+}
+.extra:hover img {
+    transform: scale(1.1);}
+.ball img{
+    filter: grayscale(100);
+}
+.ball img:hover
+{
+    filter: grayscale(0);
+}
+.footer .icons i
+{
+    border: 1px solid white;
+    color: white;
+padding: 10px 11px;
+border-radius: 50%;
+transition: all 0.6s ease-in-out;
+}
+.footer .icons i:hover
+{
+  background-color: white;
+  color: black;
+}
+.footer ul li a{
+    font-family: poppins;
+    color: #535353;
+    text-decoration: none;
+    transition: all ease-in-out 0.6s;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer li:hover a{
+    color: white;
+}
+.carousel img{
+    height: 100%;
+    width: 100%;
+}
